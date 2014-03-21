@@ -5,7 +5,7 @@
 	height: 450px;
 	margin-left:13%;
 	margin-top: 5%;
-	border: 20px ridge rgb(209, 218, 216);
+	border: 15px ridge rgb(209, 218, 216);
 	border-style: ridge ridge groove groove;
 	/*-webkit-border-image:url('../images/b2.png') 30 50 round; /* Safari 5 */
 /*-o-border-image:url('../images/b2.png') 30 50 round; /* Opera */
@@ -171,9 +171,11 @@
     border-radius: 0;
     border: none;
     margin-bottom: 0;
-    width: 724px
+    width: 724px;
 }
-
+.panel-heading{
+  padding:5px 15px;
+}
 .panel-body{
 	padding: 0px;
 }
