@@ -1,8 +1,8 @@
 .bb{
 	background: url('../images/bb.jpg') no-repeat;
 	background-size: 100% 100%;
-	width:1024px;
-	height: 550px;
+	width:724px;
+	height: 450px;
 	margin-left:13%;
 	margin-top: 5%;
 	border: 20px ridge rgb(209, 218, 216);
@@ -171,7 +171,7 @@
     border-radius: 0;
     border: none;
     margin-bottom: 0;
-    width: 1024px
+    width: 724px
 }
 
 .panel-body{
@@ -194,7 +194,7 @@
 .ticker {
   position: absolute;
   margin-left: 300px;
-  width: 894px;
+  width: 594px;
   height: 40px;
   overflow: hidden;
   line-height: 40px;
