@@ -1,15 +1,16 @@
-body{
-  background: url('../images/bg.jpg') no-repeat;
-  background-size: 100%;
+.top-panel{
+  background:url('../images/wood-plank2.jpg') repeat-x;
   width: 100%;
+  height:50px;
+  background-size: 50% 100%;
 }
 .bb{
 	background: url('../images/bb.jpg') no-repeat;
 	background-size: 100% 100%;
-	width:924px;
+	width:1024px;
 	height: 450px;
-	margin-left:13%;
-	margin-top: 5%;
+	margin-left:5%;
+	margin-top: -50px;   /* Changed */
 	border: 15px ridge rgb(209, 218, 216);
 	border-style: ridge ridge groove groove;
 	/*-webkit-border-image:url('../images/b2.png') 30 50 round; /* Safari 5 */
@@ -29,7 +30,6 @@ body{
 	margin-top: 3%;
 	float: left;
 	margin-left: 2%;
-  font-size: 11px;
 }
 
 .cc_name{
@@ -37,7 +37,6 @@ body{
 	font-weight: 300;
 	margin-top: 3%;
 	float: left;
-  font-size: 11px;
 }
 
 .cls_title{
@@ -47,7 +46,6 @@ body{
 	float: left;
 	margin-left: 20%;
 	text-align: center;
-  font-size: 11px;
 }
 
 .cls_name{
@@ -56,7 +54,6 @@ body{
 	margin-top: 3%;
 	float: left;
 	margin-left: 1%;
-  font-size: 11px;
 }
 
 .stu_count{
@@ -73,7 +70,6 @@ body{
 	font-weight: 300;
 	margin-top: 15%;
 	float: left;
-  font-size: 11px;
 }
 
 .ol_count_num{
@@ -81,7 +77,6 @@ body{
 	font-weight: 300;
 	float: left;
 	margin-top: 15%;
-  font-size: 11px;
 }
 
 .total_count{
@@ -93,7 +88,6 @@ body{
 	font-weight: 300;
 	margin-top: 5%;
 	float: left;
-  font-size: 11px;
 }
 
 .total_count_num{
@@ -101,7 +95,6 @@ body{
 	font-weight: 300;
 	float: left;
 	margin-top: 5%;
-  font-size: 11px;
 }
 
 #bb_top_margin_end{
@@ -121,10 +114,11 @@ body{
 }
 
 .update_text{
-	margin-left: 13%;
+margin-left: 5%;
 }
 .facebook-share-box {
-    width: 924px;
+    width: 1024px;
+   
 }
 .facebook-share-box .share {
     -webkit-transition: 0.1s ease-out height;
@@ -184,11 +178,10 @@ body{
     border-radius: 0;
     border: none;
     margin-bottom: 0;
-    width: 924px;
+    width: 1024px;
+
 }
-.panel-heading{
-  padding:5px 15px;
-}
+
 .panel-body{
 	padding: 0px;
 }
@@ -208,26 +201,26 @@ body{
 
 .ticker {
   position: absolute;
-  margin-left: 21%;
-  width: 60%;
+  margin-left: 260px;
+  width: 794px;
   height: 40px;
   overflow: hidden;
   line-height: 40px;
   background-color:  #f5f5f5;
   text-align: left;
   font-size: 10px;
-  margin-top: -30px;
+  margin-top: 20px;
    border-bottom: 1px solid #A7A7A7;
 }
 
 .tickerhdng {
   position: absolute;
-  margin-left: 13%;
+  margin-left: 150px;
   width: 110px;
   height: 40px;
   overflow: hidden;
   line-height: 45px;
-  margin-top: -30px;
+  /*margin-top: 20px;*/
   background-color:  #f5f5f5;
   text-align: left;
   padding-left: 10px;
