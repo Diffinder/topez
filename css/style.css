@@ -1,125 +1,125 @@
 .logo{
   background: url('../images/logo.png') no-repeat;
   float:left;
-  width: 180px;
-  height: 50px;
+  width: 120px;
+  height: 40px;
    background-size: 100% 100%;
-  margin-top: 3px;
+  margin-top: px;
   margin-left: 70px;
   font-size: 25px;
 }
 .top-panel{
   background:url('../images/top.png');
   width: 100%;
-  height:50px;
+  height:40px;/*034 height changed*/
   background-size: 100% 100%;
   border-bottom: 3px solid #7E7A7A;
   color:rgb(250, 244, 244);
-  font-size: 21px;
+  font-size: 15px;/*034 size changed*/
   text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
 }
 .bb{
-	background: url('../images/bb.png') no-repeat;
-	background-size: 100% 100%;
-	width:1024px;
-	height: 450px;
-	margin-left:5%;
-	margin-top: -50px;   /* Changed */
-	/*border: 15px ridge rgb(209, 218, 216);
-	border-style: ridge ridge groove groove;*/
-	/*-webkit-border-image:url('../images/b2.png') 30 50 round; /* Safari 5 */
+  background: url('../images/bb.png') no-repeat;
+  background-size: 100% 100%;
+  width:1024px;
+  height: 400px;/*034 height changed*/
+  margin-left:5%;
+  margin-top: -50px;   /* Changed */ /*034 changed*/
+  /*border: 15px ridge rgb(209, 218, 216);
+  border-style: ridge ridge groove groove;*/
+  /*-webkit-border-image:url('../images/b2.png') 30 50 round; /* Safari 5 */
 /*-o-border-image:url('../images/b2.png') 30 50 round; /* Opera */
 /*border-image:url('../images/b2.png') 5 5 round;*/
 
 }
 
 .bb_top_margin{
-	/*border: 1px solid red;*/
-	
+  /*border: 1px solid red;*/
+  
 }
 body{
    background:url('../images/bg.png') no-repeat center  fixed;
    -webkit-background-size: cover; 
 }
 .cc_title{
-	color: white;
-	font-weight: 300;
-	margin-top: 3%;
-	float: left;
-	margin-left: 2%;
+  color: white;
+  font-weight: 300;
+  margin-top: 3%;
+  float: left;
+  margin-left: 2%;
 }
 
 .cc_name{
-	color: white;
-	font-weight: 300;
-	margin-top: 3%;
-	float: left;
+  color: white;
+  font-weight: 300;
+  margin-top: 3%;
+  float: left;
 }
 
 .cls_title{
-	color: white;
-	font-weight: 300;
-	margin-top: 3%;
-	float: left;
-	margin-left: 20%;
-	text-align: center;
+  color: white;
+  font-weight: 300;
+  margin-top: 3%;
+  float: left;
+  margin-left: 20%;
+  text-align: center;
 }
 
 .cls_name{
-	color: white;
-	font-weight: 300;
-	margin-top: 3%;
-	float: left;
-	margin-left: 1%;
+  color: white;
+  font-weight: 300;
+  margin-top: 3%;
+  float: left;
+  margin-left: 1%;
 }
 
 .stu_count{
-	float: right;
-	margin-right: 3%;
+  float: right;
+  margin-right: 3%;
 }
 
 .ol_count{
-	float: left;
+  float: left;
 }
 
 .ol_count_title{
-	color: white;
-	font-weight: 300;
-	margin-top: 15%;
-	float: left;
+  color: white;
+  font-weight: 300;
+  margin-top: 15%;
+  float: left;
 }
 
 .ol_count_num{
-	color: white;
-	font-weight: 300;
-	float: left;
-	margin-top: 15%;
+  color: white;
+  font-weight: 300;
+  float: left;
+  margin-top: 15%;
 }
 
 .total_count{
-	clear: both;
+  clear: both;
 }
 
 .total_count_title{
-	color: white;
-	font-weight: 300;
-	margin-top: 5%;
-	float: left;
+  color: white;
+  font-weight: 300;
+  margin-top: 5%;
+  float: left;
 }
 
 .total_count_num{
-	color: white;
-	font-weight: 300;
-	float: left;
-	margin-top: 5%;
+  color: white;
+  font-weight: 300;
+  float: left;
+  margin-top: 5%;
 }
 
 #bb_top_margin_end{
-	clear: both;
-	width:100%;
-	background: white;
-	height: 1px;
-	margin-top:7%;
+  clear: both;
+  width:100%;
+  background: white;
+  height: 1px;
+  margin-top:7%;
 }
 
 .bb_wall{
@@ -145,7 +145,7 @@ margin-left: 5%;
     transition: 0.1s ease-out height;
     clear: both;
     background: white;
-    border: 2px solid #dddddd;
+    /*border: 2px solid #dddddd;*//*034 changed*/
     margin-bottom: 0px;
     position: relative;
 }
@@ -200,12 +200,12 @@ margin-left: 5%;
 }
 
 .panel-body{
-	padding: 0px;
+  padding: 0px;
 }
 
 .panel-footer{
-	padding: 0px;
-	padding-top: 5px;
+  padding: 0px;
+  padding-top: 5px;
 }
 
 .privacy-dropdown {
@@ -213,14 +213,14 @@ margin-left: 5%;
 }
 
 .form-group{
-	margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 
 .ticker {
   position: absolute;
-  margin-left: 260px;
-  width: 794px;
-  height: 40px;
+  margin-left: 170px;
+  width: 924px;/*034  changed*/
+  height: 40px;/*034  changed*/
   overflow: hidden;
   line-height: 40px;
   background-color:  #f5f5f5;
@@ -232,7 +232,7 @@ margin-left: 5%;
 
 .tickerhdng {
   position: absolute;
-  margin-left: 150px;
+  margin-left: 70px;/*034 changed*/
   width: 110px;
   height: 40px;
   overflow: hidden;
